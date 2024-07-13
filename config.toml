@@ -130,9 +130,13 @@ disableKinds = ["taxonomy"]
                 
         [[params.skills.list]]
         skill = "Python programming"
-        skillrating = 45
+        skillrating = 45 #
 		
         [[params.skills.list]]
         skill = "Java"
         skillrating = 30#
+
+        [[params.skill.list]]
+        skill = "Dart"
+        skillrating = 30.5 #
 

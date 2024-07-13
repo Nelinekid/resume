@@ -6,17 +6,17 @@ disableKinds = ["taxonomy"]
     writeStats = true
 
 [params]
-    title = "Sada Theme"
-    author = "Darshan Baral"
-    description = "Simple portfolio theme"
-    copyright = "Custom copyright message"
+    title = "cv/resume"
+    author = "Neline Eyabe"
+    description = "My portfolio"
+    copyright = "copyright 2024"
     theme = "dark" # `dark` or `light`
 
     # Profile section
     [params.profile]
-        name = "First Last"
-        title = "Abbr., K.A."
-        photo = "images/profile.jpg"
+        name = "Neline Eyabe"
+        title = "Data Science."
+        photo = "/images/pic1.jpg"
 
     # Section for links to social websites
     [params.social]
@@ -29,7 +29,7 @@ disableKinds = ["taxonomy"]
 
         [[params.social.list]]
         icon = "fab fa-github"
-        url = "#"
+        url = "https://github.com/Nelinekid"
         title = "GitHub"
 		
 		[[params.social.list]]
@@ -47,16 +47,16 @@ disableKinds = ["taxonomy"]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
+        degree = "Advance level"
+        college = "Government Balingual High School Yaounde"
+        dates = "2020 - 2021"
         thesis_title = "Title of the dissertation"
         thesis_link = "#"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "ordinary level"
+        college = "CEGET Bonaberi Douala"
+        dates = "2017- 2018"
 
     # Languages section
     [params.language]
@@ -67,7 +67,7 @@ disableKinds = ["taxonomy"]
         level = "Fluent"
 				
         [[params.language.list]]
-        language = "Bird"
+        language = "French"
         level = "Basic"
 
     # Interests section
@@ -75,63 +75,64 @@ disableKinds = ["taxonomy"]
         title = "Hobbies"
 
         [[params.hobbies.list]]
-        interest = "Travelling"
+        interest = "Sports"
 		
 		[[params.hobbies.list]]
         interest = "Music"
 
         [[params.hobbies.list]]
-        interest = "Flying"
+        interest = "Cooking"
+
 
         [[params.hobbies.list]]
-        interest = "Baking"
+        interest = "gaming"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "My name is Neline Eyabe,i am a level 300 student at the University  Of Buea with a strong interest Data Science. I am driven by a desire to give innovative solutions,and a passion for problem solvng. I am excited to apply my skills and knowledge to real world projects and contribute to giving meaning and useful data to organizations."
 
     # Experiences section
     [params.experiences]
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
+        position = "Intern at N.TECH"
+        dates = "1 month"
 		link = "#"
-        company = "Company name 1"
+        company = "Network Technologies Yaounde"
+
 
         [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
+        position = "Intern at IKNITE"
+        dates = "2 months"
 		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
+        company = "IKNITE SPACE"
+        
     # Projects section
     [params.projects]
         title = "Projects"
 
         [[params.projects.list]]
-        title = "Awesome Project 1"
+        title = "Restuarant Site"
         url = "#"
         description = "Description of the *awesome* project 1"
 		
 		[[params.projects.list]]
-        title = "Awesome Project 2"
+        title = "Quizz App"
         url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
+        
     # Skills section
     [params.skills]
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
+        skill = "html"
+        skillrating = 50 # out of 100
                 
         [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
+        skill = "Python programming"
+        skillrating = 45
 		
         [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        skill = "Java"
+        skillrating = 30#
+
